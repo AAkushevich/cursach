@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+html,
+body {
+  height: 100%;
+}
+
+body
+{
+    background-color: #243035;
+    height: 100%;
+}
+
+nav
+{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #222D32;
+    height: 5.5%;
+    width: 100%;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav .logo
+{
+  display: flex;
+  width: 6%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+nav menu a
+{
+    text-decoration: none;
+}
+
+nav .wrap{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 1 1 auto;
+
+}
+
+nav .login
+{
+  width: 6%;
+}
+
+nav .menu{
+    font-size:  18px;
+    font-family: 'Cormorant Garamond';
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .menu li{
+    padding: 0 2.5%;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+nav .menu li a:hover{
+    text-decoration: none;
+    color: #9fa1a3;
+    transition: 0.2s;
+}
+
+nav .login{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+nav .login a{
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: 0.5s;
+  opacity: 1;
+  align-items: center;
+  justify-content: center;
+
+}
+nav .login a:hover{
+    opacity: 2.7;
+    transition: 0.2s;
+}
+
+
+#wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.cont
+{
+    display: flex;
+    font-family: 'Cormorant Garamond';
+    position: relative;
+    background-color:rgb(66, 64, 66);
+    height:80%;
+    width: 100%;
+    margin:auto ;
+    margin-top: 5px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.cont:hover{
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+.text{
+  height: 12%;
+  width: 100%;
+  color: #060606;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  opacity: 0.4;
+  transition: 0.5s;
+  align-self: flex-end;
+}
+
+.text:hover{
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.text p
+{
+  font-size: 19px;
+  margin-top: 0.5%;
+  margin-left: 1%;
+  color:#000000;
+}
+
+.text h6
+{
+  font-size: 20px;
+  width: auto;
+  display: flex;
+  display: inline-flex;
+  margin-top: 0.5%;
+  margin-left: 2%;
+}
+
+a {
+    display: inline-block;
+    color:#000000;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+.text h6 a:after
+{
+    background-color: #000000;
+    display: block;
+    content: "";
+    height: 1.5px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    transition: width .3s ease-in-out;
+    transform:translateX(-50%);
+}
+.text h6 a:hover:after,
+.text h6 a:focus:after {
+    width: 100%;
+}
+footer
+{
+  background-color: #222D32;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top:5px;
+  text-decoration: none;
+}
+
+footer li
+{
+  align-items: center;
+  list-style-type: none;
+  padding: 0 1.5%;
+}
+
+footer li a
+{
+  text-decoration: none;
+  color: #FFFFFF;
+  list-style-type: none;
+  font-family: 'Cormorant Garamond';
+  transition: 0.5s;
+}
+
+footer li a:hover
+{
+    text-decoration: none;
+    color: #9fa1a3;
+    transition: 0.2s;
+}
+
+.first{
+    margin-top: 0;
+    background-image:url("pictures/div1.jpg");
+}
+
+.second{
+    background-image:url("pictures/div2.jpg");
+}
+
+.third{
+    background-image:url("http://elitefon.ru/download.php?file=201302/1920x1080/elitefon.ru-31832.jpg");
+}
