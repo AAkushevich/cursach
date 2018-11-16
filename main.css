@@ -106,7 +106,26 @@ nav .login a:hover{
     transition: 0.2s;
 }
 
-
+@media only screen and (max-width: 720px) {
+    nav
+     {
+       height: 5%;
+    }
+    nav .logo
+    {
+      width: 5.5%;
+    }
+    nav .login
+    {
+      width: 5.5%;
+    }
+    nav .menu{
+      font-size: 22px;
+    }
+    nav .menu li{
+        padding: 0 4.5%;
+    }
+}
 #wrapper {
     position: relative;
     height: 100%;
@@ -119,7 +138,7 @@ nav .login a:hover{
     font-family: 'Cormorant Garamond';
     position: relative;
     background-color:rgb(66, 64, 66);
-    height:80%;
+    height:85%;
     width: 100%;
     margin:auto ;
     margin-top: 5px;
@@ -191,6 +210,17 @@ a {
 .text h6 a:focus:after {
     width: 100%;
 }
+@media only screen and (max-width: 720px) {
+  .text{
+    height: 8%;
+  }
+  .text h2{
+    font-size: 24px;
+  }
+  .text p{
+    font-size: 22px;
+  }
+}
 footer
 {
   background-color: #222D32;
@@ -227,7 +257,17 @@ footer li a:hover
     color: #9fa1a3;
     transition: 0.2s;
 }
-
+@media only screen and (max-width: 720px)
+{
+    footer{
+      height: 4%;
+      font-size: 14px;
+    }
+    footer li
+    {
+      padding: 0 2%;
+    }
+}
 .first{
     margin-top: 0;
     background-image:url("pictures/div1.jpg");

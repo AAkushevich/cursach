@@ -75,6 +75,26 @@ nav .menuu li a:hover{
     color: #9fa1a3;
     transition: 0.2s;
 }
+@media only screen and (max-width: 720px) {
+    nav
+     {
+       height: 5%;
+     }
+    nav .logo
+    {
+      width: 5.5%;
+    }
+    nav .login
+    {
+      width: 5.5%;
+    }
+    nav .menuu{
+      font-size: 22px;
+    }
+    nav .menuu li{
+        padding: 0 4.5%;
+    }
+}
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -120,6 +140,21 @@ border-bottom: 0;
     align-self: center;
     padding-top: 1%;
 }
+@media only screen and (max-width: 720px)
+{
+    .content p{
+      width: 80%;
+      font-size: 20px;
+    }
+    .content h2{
+      font-size: 26px;
+    }
+    .content img
+    {
+        width: 60%;
+        height: 70%;
+    }
+}
 footer
 {
   margin-top: 1%;
@@ -157,13 +192,14 @@ footer li a:hover
     color: #9fa1a3;
     transition: 0.2s;
 }
-.first{
-    margin-top: 0;
-    background-image:url("pictures/div1.jpg");
-}
-.second{
-    background-image:url("pictures/div2.jpg");
-}
-.third{
-    background-image:url("http://elitefon.ru/download.php?file=201302/1920x1080/elitefon.ru-31832.jpg");
+@media only screen and (max-width: 720px)
+{
+    footer{
+      height: 4%;
+      font-size: 14px;
+    }
+    footer li
+    {
+      padding: 0 2%;
+    }
 }
