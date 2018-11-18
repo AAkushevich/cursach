@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book>
+    <title>Война и мир</title>
+    <author>Лев Толстой</author>
+    <year>1869</year>
+
+  </book>
+  <book>
+    <title>1984</title>
+    <author>Джордж Ору­элл</author>
+    <year>1949</year>
+
+  </book>
+  <book>
+    <title>Улисс</title>
+    <author>Джеймс Джойс</author>
+    <year>1922</year>
+  </book>
+  <book>
+    <title>Лолита</title>
+    <author>Вла­ди­мир Набо­ков</author>
+    <year>1955</year>
+  </book>    
+  <book>
+    <title>Шум и ярость</title>  
+    <author>Уильям Фолкнер</author>
+    <year>1929</year>
+  </book>
+    <book>
+    <title>Невидимка</title>
+    <author>Ральф Эллисон</author>
+    <year>1952</year>
+  </book>
+    <book>
+    <title>Лолита</title>
+    <author>Вла­ди­мир Набо­ков</author>
+    <year>1955</year>
+  </book>
+    <book>
+    <title>К маяку</title>
+    <author>Вирджиния Вульф</author>
+    <year>1927</year>
+  </book>
+    <book>
+    <title>Иллиада и Одиссея</title>
+    <author>Гомер</author>
+    <year>VIII век до н. э.</year>
+  </book>
+    <book>
+    <title>Гордость и Предубеждение</title>
+    <author>Джейн Остин</author>
+    <year>1813</year>
+  </book>
+    <book>
+    <title>Божественная комедия</title>
+    <author>Данте Алигьери</author>
+    <year>1321</year>
+  </book>
+    <book>
+    <title>Кен­тер­бе­рий­ские рас­ска­зы</title>
+    <author>Джоф­ф­ри Чосер	</author>
+    <year>XV век</year>
+  </book>
+    <book>
+    <title>Путе­ше­ст­вия Гул­ли­ве­ра</title>
+    <author>Джо­на­тан Свифт</author>
+    <year>1726</year>
+  </book>
+    <book>
+    <title>	Мид­дл­марч</title>
+    <author>Джордж Элиот</author>
+    <year>1874</year>
+  </book>
+    <book>
+    <title>Рас­пад	</title>
+    <author>Чинуа Аче­бе</author>
+    <year>1958</year>
+  </book>
+    <book>
+    <title>	Над про­па­стью во ржи</title>
+    <author>Дже­ром Д. Сэлин­джер	</author>
+    <year>1951</year>
+  </book>
+    <book>
+    <title>	Уне­сён­ные вет­ром</title>
+    <author>Мар­га­рет Мит­челл	</author>
+    <year>1936</year>
+  </book>
+    <book>
+    <title>Сто лет оди­но­че­ства</title>
+    <author>Габ­ри­эль Гар­сия Мар­кес	</author>
+    <year>	1967</year>
+  </book>
+    <book>
+    <title>Вели­кий Гэтсби</title>
+    <author>Фрэн­сис Скотт Фитц­д­же­ральд	</author>
+    <year>	1925</year>
+  </book>
+    <book>
+    <title>Улов­ка 22</title>
+    <author>Джо­зеф Хел­лер	</author>
+    <year>1961</year>
+  </book>
+    <book>
+    <title>Воз­люб­лен­ная</title>
+    <author>Тони Мор­ри­сон		</author>
+    <year>1987</year>
+  </book>
+    <book>
+    <title>Гроз­дья гне­ва</title>
+    <author>Джон Стейн­бек	</author>
+    <year>	1939</year>
+  </book>
+    <book>
+    <title>Дети полу­но­чи</title>
+    <author>Сал­ман Руш­ди</author>
+    <year>1981</year>
+  </book>
+    <book>
+    <title>Лолита</title>
+    <author>Вла­ди­мир Набо­ков</author>
+    <year>1955</year>
+  </book>
+    <book>
+    <title>Лолита</title>
+    <author>Вла­ди­мир Набо­ков</author>
+    <year>1955</year>
+  </book>
+    <book>
+    <title>Див­ный новый мир</title>
+    <author>Олдос Хакс­ли	</author>
+    <year>1932</year>
+  </book>
+    <book>
+    <title>Мис­сис Дэл­лоуэй</title>
+    <author>Вир­джи­ния Вульф	</author>
+    <year>	1925</year>
+  </book>
+    <book>
+    <title>Сын Аме­ри­ки</title>
+    <author>Ричард Райт		</author>
+    <year>1940</year>
+  </book>
+    <book>
+    <title>	Демо­кра­тия в Аме­ри­ке</title>
+    <author>Алек­сис де Токвиль	</author>
+    <year>1835</year>
+  </book>
+    <book>
+    <title>	Про­ис­хож­де­ние видов	</title>
+    <author>Чарльз Дар­вин</author>
+    <year>1859</year>
+  </book>
+    <book>
+    <title>Исто­рия</title>
+    <author>Геро­дот	</author>
+    <year>	440 год до н. э.</year>
+  </book>
+    <book>
+    <title>	Обще­ствен­ный дого­вор</title>
+    <author>Жан-Жак Рус­со	</author>
+    <year>1762</year>
+  </book>
+    <book>
+    <title>	Капи­тал	</title>
+    <author>Карл Маркс</author>
+    <year>1867</year>
+  </book>мир
+    <book>
+    <title>	Госу­дарь	</title>
+    <author>Ник­ко­ло Макиа­вел­ли</author>
+    <year>1532</year>
+  </book>м
+
+    <book>
+    <title>Лолита</title>
+    <author>Вла­ди­мир Набо­ков</author>
+    <year>1955</year>
+  </book>
+    <book>
+    <title>Лолита</title>
+    <author>Вла­ди­мир Набо­ков</author>
+    <year>1955</year>
+  </book>
+    <book>
+    <title>Лолита</title>
+    <author>Вла­ди­мир Набо­ков</author>
+    <year>1955</year>
+  </book>м
+
+    <book>
+    <title>Испо­ведь</title>
+    <author>Бла­жен­ный Авгу­стин</author>
+    <year>IV век</year>
+  </book>
+    <book>
+    <title>Левиа­фан	</title>
+    <author>Томас Гоббс	</author>
+    <year>1651</year>
+  </book>
+    <book>
+    <title>Исто­рия Пело­по­нес­ской вой­ны</title>
+    <author>Фуки­дид		</author>
+    <year>431 год до н. э.</year>
+  </book>
+    <book>
+    <title>	Вла­сте­лин колец</title>
+    <author>Джон Тол­ки­ен	</author>
+    <year>1954</year>
+  </book>
+    <book>
+    <title>Вин­ни-Пух</title>
+    <author>Алан Алек­сандр Милн</author>
+    <year>1926</year>
+  </book>
+    <book>
+    <title>Лев, кол­ду­нья и пла­тя­ной шкаф</title>
+    <author>Клайв Лью­ис		</author>
+    <year>1950</year>
+  </book>
+    <book>
+    <title>Поезд­ка в Индию</title>
+    <author>Эду­ард Фор­стер		</author>
+    <year>1924</year>
+  </book>
+    <book>
+    <title>В доро­ге</title>
+    <author>Джон Керу­ак	</author>
+    <year>	1957</year>
+  </book>
+    <book>
+    <title>Убить пере­смеш­ни­ка</title>
+    <author>Хар­пер Ли</author>
+    <year>1960</year>
+  </book>
+    <book>
+    <title>?</title>
+    <author>Биб­лия</author>
+    <year>?</year>
+  </book>
+    <book>
+    <title>Завод­ной апель­син</title>
+    <author>Энто­ни Бер­джесс	</author>
+    <year>	1962</year>
+  </book>
+    <book>
+    <title>Свет в авгу­сте</title>
+    <author>Уильям Фолк­нер		</author>
+    <year>1932</year>
+  </book>
+    <book>
+    <title>	Души чёр­но­го наро­да</title>
+    <author>Уильям Дю Бойс</author>
+    <year>1903</year>
+  </book>
+  <book>
+    <title>	Без­бреж­ное Сар­гас­со­во море</title>
+    <author>Джин Рис	</author>
+    <year>1966</year>
+  </book>
+    <book>
+  <title>Мадам Бова­ри</title>
+    <author>Гюстав Фло­бер	</author>
+    <year>	1857</year>
+  </book>
+  <book>
+  <title>Поте­рян­ный рай</title>
+    <author>Джон Мил­тон	</author>
+    <year>	1667</year>
+  </book>
+  <book>
+  <title>Анна Каре­ни­на</title>
+    <author>Лев Тол­стой</author>
+    <year>1877</year>
+  </book>
+  <book>
+    <title>Гам­лет</title>
+    <author>Уильям Шекс­пир</author>
+    <year>1603</year>
+  </book>
+  <book>
+    <title>Король Лир</title>
+    <author>Уильям Шекс­пир	</author>
+    <year>1608</year>
+  </book>
+  <book>
+    <title>Отел­ло</title>
+    <author>Уильям Шекс­пир	</author>
+    <year>1622</year>
+  </book>
+  <book>
+    <title>Соне­ты</title>
+    <author>Уильям Шекс­пир		</author>
+    <year>1609</year>
+  </book>
+  <book>
+    <title>Листья тра­вы</title>
+    <author>Уолт Уит­мен		</author>
+    <year>1855</year>
+  </book>
+
+  <book>
+    <title>При­клю­че­ния Гекль­бер­ри Фин­на</title>
+    <author>Марк Твен			</author>
+    <year>1885</year>
+  </book>
+  <book>
+    <title>Ким</title>
+    <author>Редь­ярд Кип­линг	</author>
+    <year>1901</year>
+  </book>
+  <book>
+    <title>Фран­кен­штейн</title>
+    <author>Мэри Шел­ли	</author>
+    <year>1818</year>
+  </book>
+  <book>
+    <title>Песнь Соло­мо­на</title>
+    <author>Тони Мор­ри­сон	</author>
+    <year>	1977</year>
+  </book>
+  <book>
+    <title>Про­ле­тая над гнез­дом кукуш­ки</title>
+    <author>Кен Кизи		</author>
+    <year>	1962</year>
+  </book>
+  <book>
+    <title>По ком зво­нит коло­кол</title>
+    <author>Эрнест Хемин­гу­эй</author>
+    <year>	1940</year>
+  </book>
+  <book>
+    <title>Бой­ня номер пять</title>
+    <author>Курт Вон­не­гут	</author>
+    <year>1969</year>
+  </book>
+  <book>
+    <title>Скот­ный двор</title>
+    <author>Джордж Ору­элл			</author>
+    <year>	1945</year>
+  </book>
+  <book>
+    <title>Пове­ли­тель мух</title>
+    <author>Уильям Гол­динг		</author>
+    <year>	1954</year>
+  </book>
+  <book>
+    <title>Хлад­но­кров­ное убий­ство</title>
+    <author>Тру­ман Капо­те	</author>
+    <year>	1965</year>
+  </book>
+  <book>
+    <title>	Золо­тая тет­радь</title>
+    <author>Дорис Лес­синг		</author>
+    <year>1962</year>
+  </book>
+  <book>
+    <title>В поис­ках поте­рян­но­го вре­ме­ни</title>
+    <author>Мар­сель Пруст</author>
+    <year>	1913</year>
+  </book>
+  <book>
+    <title>Боль­шой сон</title>
+    <author>Рей­монд Чанд­лер	</author>
+    <year>	1939</year>
+  </book>
+  <book>
+    <title>	Когда я уми­ра­ла</title>
+    <author>Уильям Фолк­нер		</author>
+    <year>1930</year>
+  </book>
+  <book>
+    <title>Фие­ста	</title>
+    <author>Эрнест Хемин­гу­эй	</author>
+    <year>1926</year>
+  </book>
+  <book>
+    <title>Я, Клав­дий</title>
+    <author>Роберт Грейвз	</author>
+    <year>	1934</year>
+  </book>
+  <book>
+    <title>Серд­це — оди­но­кий охот­ник</title>
+    <author>Кар­сон Мак­кал­лерс</author>
+    <year>1940</year>
+  </book>
+  <book>
+    <title>Сыно­вья и любов­ни­ки</title>
+    <author>Дэвид Лоуренс	</author>
+    <year>1913</year>
+  </book>
+  <book>
+    <title>И вся коро­лев­ская рать	</title>
+    <author>Роберт Пенн Уор­рен	</author>
+    <year>1946</year>
+  </book>
+  <book>
+    <title>Иди, вещай с горы</title>
+    <author>Джеймс Бол­ду­ин		</author>
+    <year>	1953</year>
+  </book>
+  <book>
+    <title>Пау­ти­на Шар­лот­ты</title>
+    <author>Эдвин Уайт		</author>
+    <year>	1952</year>
+  </book>
+  <book>
+    <title>Серд­це тьмы</title>
+    <author>Джо­зеф Конрад	</author>
+    <year>	1902</year>
+  </book>
+  <book>
+    <title>	Ночь</title>
+    <author>Эли Визель		</author>
+    <year>1958</year>
+  </book>
+  <book>
+    <title>Кро­лик, беги</title>
+    <author>Джон Апдайк	</author>
+    <year>1960</year>
+  </book>
+  <book>
+    <title>Эпо­ха невин­но­сти	</title>
+    <author>Эдит Уор­тон	</author>
+    <year>	1920</year>
+  </book>
+  <book>
+    <title>Слу­чай порт­но­го</title>
+    <author>Филип Рот	</author>
+    <year>1969</year>
+  </book>
+  <book>
+    <title>Аме­ри­кан­ская тра­ге­дия</title>
+    <author>Тео­дор Драй­зер</author>
+    <year>1925</year>
+  </book>
+  <book>
+    <title>День саран­чи	</title>
+    <author>Ната­ни­эль Уэст</author>
+    <year>1939	</year>
+  </book>
+  <book>
+    <title>Тро­пик рака</title>
+    <author>Ген­ри Мил­лер		</author>
+    <year>	1934</year>
+  </book>
+  <book>
+    <title>Маль­тий­ский сокол</title>
+    <author>Дэши­ел Хэм­мет		</author>
+    <year>	1930</year>
+  </book>
+  <book>
+    <title>	Тём­ные нача­ла</title>
+    <author>Филип Пул­ман		</author>
+    <year>1995</year>
+  </book>
+  <book>
+    <title>Смерть при­шла архи­епи­ско­пу</title>
+    <author>Уил­ла Кей­тер	</author>
+    <year>1927</year>
+  </book>
+  <book>
+    <title>Тол­ко­ва­ния снов</title>
+    <author>Зиг­мунд Фрейд		</author>
+    <year>	1900</year>
+  </book>
+  <book>
+    <title>Вос­пи­та­ние Ген­ри Адам­са</title>
+    <author>Ген­ри Адамс </author>
+    <year>1918</year>
+  </book>
+  <book>
+    <title>Цитат­ник	</title>
+    <author>Мао Цзе­дун		</author>
+    <year>1964</year>
+  </book>
+  <book>
+    <title>Мно­го­об­ра­зие рели­ги­оз­но­го опы­та</title>
+    <author>Уильям Джемс	</author>
+    <year>1902</year>
+  </book>
+  <book>
+    <title>Воз­вра­ще­ние в Брайдс­хед</title>
+    <author>Ивлин Во</author>
+    <year>1945</year>
+  </book>
+  <book>
+    <title>Без­молв­ная вес­на</title>
+    <author>Рей­чел Кар­сон	</author>
+    <year>1962</year>
+  </book>
+  <book>
+    <title>	Общая тео­рия заня­то­сти, про­цен­та и денег</title>
+    <author>Джон Кейнс	</author>
+    <year>	1936</year>
+  </book>
+  <book>
+    <title>Лорд Джим</title>
+    <author>Джо­зеф Конрад	</author>
+    <year>1900</year>
+  </book>
+  <book>
+    <title>Про­стим­ся со всем этим</title>
+    <author>Роберт Грей­вз</author>
+    <year>1929</year>
+  </book>
+  <book>
+    <title>Обще­ство изоби­лия</title>
+    <author>Джон Кеннет Гэл­б­рейт	</author>
+    <year>	1958</year>
+  </book>
+  <book>
+    <title>Ветер в ивах</title>
+    <author>Кеннет Грэм	</author>
+    <year>1908</year>
+  </book>
+  <book>
+    <title>Авто­био­гра­фия Мал­кол­ма Икс</title>
+    <author>Алекс Хей­ли и Мал­колм Икс	</author>
+    <year>1965</year>
+  </book>
+  <book>
+    <title>Выда­ю­щи­е­ся вик­то­ри­ан­цы</title>
+    <author>Лит­тон Стре­чи	</author>
+    <year>1918</year>
+  </book>
+  <book>
+    <title>	Цвет пур­пур­ный</title>
+    <author>Элис Уокер</author>
+    <year>	1982</year>
+  </book>
+  <book>
+    <title>Вто­рая миро­вая война</title>
+    <author>Уин­стон Чер­чилль</author>
+    <year>1948</year>
+  </book>
+</bookstore>

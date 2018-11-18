@@ -28,7 +28,32 @@ nav
     align-items: center;
     z-index: 1000;
 }
-
+.table a {
+  display: inline-block;
+  width: auto;
+  color:#DADADA;
+  line-height: 1;
+  text-decoration:none;
+  text-align: center;
+  cursor: pointer;
+  position:relative;
+}
+.table a:after
+{
+    background-color: #DADADA;
+    display: block;
+    content: "";
+    height: 1.5px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    transition: width .3s ease-in-out;
+    transform:translateX(-50%);
+}
+.table a:hover:after,
+.table a:focus:after {
+    width: 100%;
+}
 nav .logo
 {
   display: flex;
@@ -108,7 +133,7 @@ nav .login a:hover{
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -116,28 +141,31 @@ nav .login a:hover{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 45%;
+  height: auto;
   align-items: center;
   justify-content: center;
   background-color: #E3E3E3;
+  padding-top: 3%;
+  padding-bottom: 5%;
 }
 
 .scont h2
 {
-  margin-top: 15px;
+  margin-top: 5%;
   font-family: 'Cormorant Garamond';
   border-bottom: 1px solid #000000;
   flex-direction: column;
 }
 
-.scont .pf{
-  margin-top: 1%;
-}
 .scont p{
   text-align: justify;
   margin-top: 0.5%;
   width: 60%;
+  margin-top: 1%;
   font-size: 17px;
+}
+.scont .pf{
+  margin-top: 1.5%; 
 }
 
  .mcont{
@@ -145,17 +173,27 @@ nav .login a:hover{
   flex-direction: column;
   width: 100%;
   font-family: 'EB Garamond', serif;
-  height: 45%;
+  height: auto;
   background-color: #2C363A;
+  padding-bottom: 2%;
 }
 
 .mcont .table{
   margin: auto;
   margin-top: 2%;
-  width: 60%;
+  width: 65%;
   display: flex;
-  color: #DADADA;
+  flex-direction: column;
+  color: #e3e3e3;
   border-collapse: collapse;
+}
+tbody{
+  width: 80%;
+  margin: auto;
+
+}
+.table tr{
+  width: 100%;
 }
 .table tr,td{
   padding: 8px;
@@ -165,6 +203,7 @@ transition: 0.5s;
 
 }
 tr:hover {background-color:#DA202F;}
+
 .table .num{
   width: 3%;
   transition: 0.5s;
@@ -172,10 +211,13 @@ tr:hover {background-color:#DA202F;}
 }
 
 .table .name{
-  width: 55%;
+  width: auto;
 }
 .table .author{
-  width: 42%;
+  width: 33%;
+}
+.table .year{
+  width: 18%;
 }
 footer
 {
