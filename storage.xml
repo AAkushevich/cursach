@@ -4,13 +4,11 @@
     <title>Война и мир</title>
     <author>Лев Толстой</author>
     <year>1869</year>
-
   </book>
   <book>
     <title>1984</title>
     <author>Джордж Ору­элл</author>
     <year>1949</year>
-
   </book>
   <book>
     <title>Улисс</title>
@@ -31,11 +29,6 @@
     <title>Невидимка</title>
     <author>Ральф Эллисон</author>
     <year>1952</year>
-  </book>
-    <book>
-    <title>Лолита</title>
-    <author>Вла­ди­мир Набо­ков</author>
-    <year>1955</year>
   </book>
     <book>
     <title>К маяку</title>
@@ -118,16 +111,6 @@
     <year>1981</year>
   </book>
     <book>
-    <title>Лолита</title>
-    <author>Вла­ди­мир Набо­ков</author>
-    <year>1955</year>
-  </book>
-    <book>
-    <title>Лолита</title>
-    <author>Вла­ди­мир Набо­ков</author>
-    <year>1955</year>
-  </book>
-    <book>
     <title>Див­ный новый мир</title>
     <author>Олдос Хакс­ли	</author>
     <year>1932</year>
@@ -171,25 +154,8 @@
     <title>	Госу­дарь	</title>
     <author>Ник­ко­ло Макиа­вел­ли</author>
     <year>1532</year>
-  </book>м
-
-    <book>
-    <title>Лолита</title>
-    <author>Вла­ди­мир Набо­ков</author>
-    <year>1955</year>
   </book>
-    <book>
-    <title>Лолита</title>
-    <author>Вла­ди­мир Набо­ков</author>
-    <year>1955</year>
-  </book>
-    <book>
-    <title>Лолита</title>
-    <author>Вла­ди­мир Набо­ков</author>
-    <year>1955</year>
-  </book>м
-
-    <book>
+  <book>
     <title>Испо­ведь</title>
     <author>Бла­жен­ный Авгу­стин</author>
     <year>IV век</year>
@@ -234,9 +200,9 @@
     <author>Хар­пер Ли</author>
     <year>1960</year>
   </book>
-    <book>
-    <title>?</title>
-    <author>Биб­лия</author>
+  <book>
+    <title>Биб­лия</title>
+    <author>?</author>
     <year>?</year>
   </book>
     <book>
