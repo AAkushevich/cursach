@@ -1,9 +1,11 @@
 
-  xmlhttp = new XMLHttpRequest();
-// для IE6, IE5
 
+xmlhttp = new XMLHttpRequest();
+// для IE6, IE5
 xmlhttp.open("GET","storage.xml",false);
+xmlhttp.overrideMimeType("text/xml");
 xmlhttp.send();
+
 
 xmlDoc = xmlhttp.responseXML;
 
