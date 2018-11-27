@@ -110,7 +110,7 @@ nav .login a:hover{
     nav
      {
        height: 5%;
-    }
+     }
     nav .logo
     {
       width: 5.5%;
@@ -120,7 +120,7 @@ nav .login a:hover{
       width: 5.5%;
     }
     nav .menu{
-      font-size: 22px;
+      font-size: 15px;
     }
     nav .menu li{
         padding: 0 4.5%;
