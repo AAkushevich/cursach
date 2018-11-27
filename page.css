@@ -23,15 +23,6 @@ nav
     align-items: center;
 }
 
-nav .logo
-{
-  display: flex;
-  width: 6%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
 nav .menuu a
 {
     text-decoration: none;
@@ -45,10 +36,6 @@ nav .wrap
     flex: 1 1 auto;
 }
 
-nav .login
-{
-  width: 6%;
-}
 nav .menuu{
     font-size:  18px;
     font-family: 'Cormorant Garamond';
@@ -78,23 +65,16 @@ nav .menuu li a:hover{
 @media only screen and (max-width: 720px) {
     nav
      {
-       height: 5%;
+       height: 8%;
      }
-    nav .logo
-    {
-      width: 5.5%;
-    }
-    nav .login
-    {
-      width: 5.5%;
-    }
     nav .menuu{
-      font-size: 22px;
+      font-size: 13px;
     }
     nav .menuu li{
-        padding: 0 4.5%;
+        padding: 0 3%;
     }
 }
+
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -115,11 +95,12 @@ nav .menuu li a:hover{
 }
 
 .content h2{
-font-family: 'Cormorant Garamond';
-border-bottom: 1px solid #000000;
-flex-direction: column;
-align-self: center;
-padding-top: 2%;
+  font-family: 'Cormorant Garamond';
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  flex-direction: column;
+  align-self: center;
+  padding-top: 2%;
 }
 .content h2:first-child{
 border-bottom: 0;
@@ -143,15 +124,18 @@ border-bottom: 0;
 @media only screen and (max-width: 720px)
 {
     .content p{
-      width: 80%;
-      font-size: 20px;
+      width: 95%;
+      font-size: 16px;
     }
     .content h2{
-      font-size: 26px;
+      font-size: 18px;
+    }
+    .content h2:first-child{
+      padding-top: 3%;
     }
     .content img
     {
-        width: 60%;
+        width: 85%;
         height: 70%;
     }
 }
@@ -196,8 +180,8 @@ footer li a:hover
 @media only screen and (max-width: 720px)
 {
     footer{
-      height: 4%;
-      font-size: 14px;
+      height: 5%;
+      font-size: 9px;
     }
     footer li
     {
