@@ -30,6 +30,7 @@ nav
     z-index: 1000;
 }
 
+
 .table span {
   display: inline-block;
   width: auto;
@@ -59,15 +60,6 @@ nav
     width: 100%;
 }
 
-nav .logo
-{
-  display: flex;
-  width: 6%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
 nav menu a
 {
     text-decoration: none;
@@ -78,11 +70,6 @@ nav .wrap{
     align-items: center;
     height: 100%;
     flex: 1 1 auto;
-}
-
-nav .login
-{
-  width: 6%;
 }
 
 nav .menu{
@@ -112,28 +99,19 @@ nav .menu li a:hover{
     transition: 0.2s;
 }
 
-nav .login{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
 
+@media only screen and (max-width: 720px) {
+    nav
+     {
+       height: 8%;
+     }
+    nav .menu{
+      font-size: 13px;
+    }
+    nav .menu li{
+        padding: 0 2.5%;
+    }
 }
-
-nav .login a{
-  text-decoration: none;
-  color: #FFFFFF;
-  transition: 0.5s;
-  opacity: 1;
-  align-items: center;
-  justify-content: center;
-
-}
-nav .login a:hover{
-    opacity: 2.7;
-    transition: 0.2s;
-}
-
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -157,6 +135,7 @@ nav .login a:hover{
 .scont h2
 {
   margin-top: 3%;
+  text-align: center;
   font-family: 'Cormorant Garamond';
   border-bottom: 1px solid #000000;
   flex-direction: column;
@@ -192,7 +171,7 @@ nav .login a:hover{
   color: #D3C9C5;
   border-collapse: collapse;
   font-family: 'Cormorant Garamond';
-  font-size: 20px;box
+  font-size: 20px;
 
 }
 tbody{
@@ -228,6 +207,27 @@ tr:hover {background-color: #b21818;}
 .table .year{
   width: 18%;
 }
+
+@media only screen and (max-width: 720px)
+{
+    .scont p{
+      width: 93%;
+      font-size: 14px;
+      margin-top: 3%;
+    }
+
+    .scont h2{
+      font-size: 16px;
+      margin-top: 18%;
+    }
+    .mcont .table{
+      font-size: 16px;
+      width: 100%;
+    }
+    tbody{
+      width: 95%;
+    }
+
 footer
 {
   background-color: #222D32;
@@ -241,6 +241,7 @@ footer
   margin-top: 5px;
   text-decoration: none;
 }
+
 
 footer li
 {
@@ -263,4 +264,16 @@ footer li a:hover
     text-decoration: none;
     color: #9fa1a3;
     transition: 0.2s;
+}
+
+@media only screen and (max-width: 720px)
+{
+    footer{
+      height: 5%;
+      font-size: 9px;
+    }
+    footer li
+    {
+      padding: 0 1.5%;
+    }
 }
