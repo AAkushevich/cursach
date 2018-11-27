@@ -104,6 +104,8 @@ nav .menuu li a:hover{
 }
 .content h2:first-child{
 border-bottom: 0;
+border-bottom: 1px solid #000000;
+
 }
 
 .content p{
@@ -125,17 +127,20 @@ border-bottom: 0;
 {
     .content p{
       width: 95%;
-      font-size: 16px;
+      font-size: 16px
+      margin-top: 1.5%;
+
     }
     .content h2{
       font-size: 18px;
+      margin-top: 2%;
     }
     .content h2:first-child{
       padding-top: 3%;
     }
     .content img
     {
-        width: 85%;
+        width: 90%;
         height: 70%;
     }
 }
