@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&subset=cyrillic,cyrillic-ext');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&subset=cyrillic');
 
 * {
     margin: 0;
@@ -169,7 +170,7 @@ nav .login a:hover{
   font-size: 17px;
 }
 .scont .pf{
-  margin-top: 1.5%; 
+  margin-top: 1.5%;
 }
 
  .mcont{
@@ -190,6 +191,9 @@ nav .login a:hover{
   flex-direction: column;
   color: #D3C9C5;
   border-collapse: collapse;
+  font-family: 'Cormorant Garamond';
+  font-size: 20px;
+
 }
 tbody{
   width: 80%;
@@ -200,13 +204,14 @@ tbody{
   width: 100%;
 }
 .table tr,td{
-  padding: 8px;
+  padding: 1.2%;
 text-align: left;
 border-bottom: 1px solid #000000;
 transition: 0.5s;
 
 }
-tr:hover {background-color:#DA202F;}
+
+tr:hover {background-color: #b21818;}
 
 .table .num{
   width: 3%;
