@@ -44,11 +44,6 @@ nav .wrap{
 
 }
 
-nav .login
-{
-  width: 6%;
-}
-
 nav .menu{
     font-size:  18px;
     font-family: 'Cormorant Garamond';
@@ -84,7 +79,7 @@ nav .menu li a:hover{
        height: 8%;
      }
     nav .menu{
-      font-size: 15px;
+      font-size: 13px;
     }
     nav .menu li{
         padding: 0 3%;
@@ -116,7 +111,7 @@ nav .menu li a:hover{
 }
 
 .text{
-  height: 12%;
+  height: 10%;
   width: 100%;
   color: #060606;
   display: flex;
@@ -178,7 +173,7 @@ a {
   .text{
     height: 15%;
   }
-  .text h2{
+  .text h6{
     font-size: 14px;
   }
   .text p{
@@ -224,12 +219,12 @@ footer li a:hover
 @media only screen and (max-width: 720px)
 {
     footer{
-      height: 4%;
-      font-size: 14px;
+      height: 5%;
+      font-size: 9px;
     }
     footer li
     {
-      padding: 0 2%;
+      padding: 0 1.5%;
     }
 }
 .first{
