@@ -38,10 +38,11 @@ nav .wrap
 
 
 nav .menuu{
-    font-size:  18px;
+    font-size:  20px;
     font-family: 'Cormorant Garamond';
     display: flex;
     flex-direction: row;
+    height: 100%;
     flex: 1 1 auto;
     list-style-type: none;
     align-items: center;

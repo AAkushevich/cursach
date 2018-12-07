@@ -37,7 +37,8 @@ nav .wrap
 }
 
 nav .menuu{
-    font-size:  18px;
+    font-size:  20px;
+    height: 100%;
     font-family: 'Cormorant Garamond';
     display: flex;
     flex-direction: row;
