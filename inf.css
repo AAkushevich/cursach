@@ -1,15 +1,7 @@
   @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&subset=cyrillic,cyrillic-ext');
   @import url('https://fonts.googleapis.com/css?family=Montserrat');
   @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400&subset=cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=cyrillic');  * {
-      margin: 0;
-      padding: 0;
-    }
-
-  html,
-  body {
-    height: 100%;
-  }
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=cyrillic');  
 
   body
   {
@@ -17,81 +9,7 @@
       height: 100%;
   }
 
-  nav
-  {
-      overflow: hidden;
-      position: fixed;
-      top: 0;
-      background-color: #222D32;
-      height: 5.5%;
-      width: 100%;
-      align-items: center;
-      z-index: 1000;
-  }
-
-  nav menu a
-  {
-      text-decoration: none;
-  }
-
-  nav .wrap{
-      display: flex;
-      align-items: center;
-      height: 100%;
-      flex: 1 1 auto;
-
-  }
-
-  nav .menu{
-      font-size: 20px;
-      font-family: 'Cormorant Garamond';
-      display: flex;
-      flex-direction: row;
-      flex: 1 1 auto;
-      list-style-type: none;
-      align-items: center;
-      justify-content: center;
-  }
-
-  nav .menu li{
-      padding: 0 2.5%;
-  }
-
-  nav .menu li a{
-      text-decoration: none;
-      color: #FFFFFF;
-      transition: 0.5s;
-  }
-
-  nav .menu li a:hover{
-      text-decoration: none;
-      color: #9fa1a3;
-      transition: 0.2s;
-  }
-
-  nav .login{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-
-  }
-
-
-  nav .login a{
-    text-decoration: none;
-    color: #FFFFFF;
-    transition: 0.5s;
-    opacity: 1;
-    align-items: center;
-    justify-content: center;
-
-  }
-  nav .login a:hover{
-      opacity: 2.7;
-      transition: 0.2s;
-  }
-
+  
   a {
       display: inline-block;
       color:#000000;
@@ -130,46 +48,11 @@
       margin-top: 2%;
     }
   .text p{
-    font-size: 24px;
+    font-size: 22px;
     text-align: justify;
     width: 80%;
     margin: auto;
     margin-top: 4%;
 
   }
-  footer
-  {
-    background-color: #222D32;
-    width: 100%;
-    height: 5%;
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 auto;
-    justify-content: center;
-    align-items: center;
-    margin-top:5px;
-    text-decoration: none;
-  }
-
-  footer li
-  {
-    align-items: center;
-    list-style-type: none;
-    padding: 0 1.5%;
-  }
-
-  footer li a
-  {
-    text-decoration: none;
-    color: #FFFFFF;
-    list-style-type: none;
-    font-family: 'Cormorant Garamond';
-    transition: 0.5s;
-  }
-
-  footer li a:hover
-  {
-      text-decoration: none;
-      color: #9fa1a3;
-      transition: 0.2s;
-  }
+ 

@@ -37,10 +37,11 @@
   xmlDoc = xmlhttp.responseXML;
 
   function newPage() {
-    page = window.open("test.html");
-    body = page.document.body;
-    var div = page.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>");
-    body.insertBefore(div, body.firstChild);
+    page = window.open("book.html");
+    //page.document.createElement("p");
+    alert(page.document.getElementsByClassName("descr").innerHTML);
+    //var div = page.document.write("<p></p>");
+    //body.insertBefore(div, body.firstChild);
     // вставить первым элементом в body нового окна
 
     }
