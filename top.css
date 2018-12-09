@@ -156,4 +156,7 @@ tr:hover {background-color: #b21818;}
     tbody{
       width: 95%;
     }
+    footer{
+      display: none;
+    }
 }
