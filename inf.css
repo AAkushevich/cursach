@@ -29,7 +29,7 @@
     filter: blur(4px);
   }
   .text {
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.4); 
     color: #CEFFCB;
     font-weight: bold;
     border: 1px solid #222D32;
@@ -39,13 +39,14 @@
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 60%;
-    height: 50%;
+    height: auto;
     padding: 20px;
     text-align: center;
     font-family: 'Cormorant Garamond', cursive;
   }
     .text h1{
       margin-top: 2%;
+      font-size: 40px;
     }
   .text p{
     font-size: 22px;
@@ -53,6 +54,23 @@
     width: 80%;
     margin: auto;
     margin-top: 4%;
-
+    padding-bottom: 8%;
+  }
+  @media only screen and (max-width: 720px) 
+  {
+    .text {
+      width: 90%;
+      height: auto;
+      top: 0;
+      margin: auto;
+      margin-top: 100%; 
+    }
+    .text h1{
+      margin-top: 1%;
+      font-size: 20px;
+    }
+    .text p{ 
+      font-size: 18px;
+    }
   }
  
